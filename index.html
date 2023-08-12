@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Drywall House</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">Tienda <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="secciones/carrito.html">Carrito</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-4">
+    <h2>Productos Disponibles</h2>
+    <div class="container py-4">
+      <button class="btn btn-primary" id="productos">Ver Productos</button>
+    </div>
+    <div class="row" id="product-list">
+      <!-- Los productos se cargarán aquí mediante JS -->
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.1/build/global/luxon.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
